@@ -1,6 +1,6 @@
 from __future__ import annotations
 from typing import List, overload, TypeVar
-from xml.dom.minidom import Attr, parseString
+from xml.dom.minidom import parseString
 
 Self = TypeVar("Self", bound="Entity")
 
